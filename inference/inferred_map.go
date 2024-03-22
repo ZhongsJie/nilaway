@@ -21,9 +21,9 @@ import (
 	"go/types"
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/annotation"
+	"github.com/ZhongsJie/nilaway/util/orderedmap"
 	"github.com/klauspost/compress/s2"
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util/orderedmap"
 	"golang.org/x/tools/go/analysis"
 )
 

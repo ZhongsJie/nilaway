@@ -18,7 +18,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"go.uber.org/nilaway/util"
+	"github.com/ZhongsJie/nilaway/util"
 	"golang.org/x/tools/go/ast/astutil"
 )
 

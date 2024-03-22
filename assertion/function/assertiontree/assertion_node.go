@@ -17,7 +17,7 @@ package assertiontree
 import (
 	"go/ast"
 
-	"go.uber.org/nilaway/annotation"
+	"github.com/ZhongsJie/nilaway/annotation"
 	"golang.org/x/tools/go/analysis"
 )
 

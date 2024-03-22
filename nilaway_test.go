@@ -19,9 +19,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/config"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/config"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

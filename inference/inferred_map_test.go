@@ -20,9 +20,9 @@ import (
 	"go/token"
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/annotation"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/annotation"
 )
 
 // BenchmarkGobEncoding benchmarks the gob encoding of an inferred map to test the overhead.

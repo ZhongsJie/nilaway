@@ -1,4 +1,4 @@
-module go.uber.org/nilaway/tools
+module github.com/ZhongsJie/nilaway/tools
 
 go 1.21
 

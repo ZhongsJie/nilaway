@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/util/orderedmap"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/util/orderedmap"
 )
 
 func TestLoadStore(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"strings"
 
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util"
+	"github.com/ZhongsJie/nilaway/config"
+	"github.com/ZhongsJie/nilaway/util"
 	"golang.org/x/tools/go/analysis"
 )
 

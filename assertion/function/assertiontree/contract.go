@@ -20,9 +20,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util"
-	"go.uber.org/nilaway/util/asthelper"
+	"github.com/ZhongsJie/nilaway/annotation"
+	"github.com/ZhongsJie/nilaway/util"
+	"github.com/ZhongsJie/nilaway/util/asthelper"
 )
 
 // A RichCheckEffect is the fact that a certain check is associated with an effect that can

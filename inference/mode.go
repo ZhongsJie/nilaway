@@ -15,8 +15,8 @@
 package inference
 
 import (
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util/asthelper"
+	"github.com/ZhongsJie/nilaway/config"
+	"github.com/ZhongsJie/nilaway/util/asthelper"
 	"golang.org/x/tools/go/analysis"
 )
 

@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/config"
+	"github.com/ZhongsJie/nilaway/util/analysishelper"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/analysistest"
 )

@@ -18,7 +18,7 @@ import (
 	"go/ast"
 	"go/types"
 
-	"go.uber.org/nilaway/util"
+	"github.com/ZhongsJie/nilaway/util"
 )
 
 // This file contains annotation-embdded obo the affiliations mechanism

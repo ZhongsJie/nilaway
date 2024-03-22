@@ -21,7 +21,7 @@ import (
 	"go/types"
 	"strings"
 
-	"go.uber.org/nilaway/util"
+	"github.com/ZhongsJie/nilaway/util"
 )
 
 // A ProducingAnnotationTrigger is a possible reason that a nil value might be produced

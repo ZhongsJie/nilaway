@@ -53,7 +53,7 @@ drivers (i.e., [golangci-lint][golangci-lint], [nogo][nogo], or [running as a st
 
 Install the binary from source by running: 
 ```shell
-go install go.uber.org/nilaway/cmd/nilaway@latest
+go install github.com/ZhongsJie/nilaway/cmd/nilaway@latest
 ```
 
 Then, run the linter by:
@@ -67,14 +67,14 @@ Running with bazel/nogo requires slightly more efforts. First follow the instruc
 [gazelle][gazelle], and [nogo][nogo] to set up your Go project such that it can be built with bazel/nogo with no or 
 default set of linters configured. Then,
 
-(1) Add `import _ "go.uber.org/nilaway"` to your `tools.go` file (or other file that you use for configuring tool 
+(1) Add `import _ "github.com/ZhongsJie/nilaway"` to your `tools.go` file (or other file that you use for configuring tool 
 dependencies, see [How can I track tool dependencies for a module?][track-tool-dependencies] from Go Modules 
 documentation) to avoid `go mod tidy` from removing NilAway as a tool dependency.
 
 (2) Run the following commands to add NilAway as a tool dependency to your project:
 ```bash
 # Get NilAway as a dependency, as well as getting its transitive dependencies in go.mod file.
-$ go get go.uber.org/nilaway@latest
+$ go get github.com/ZhongsJie/nilaway@latest
 # This should not remove NilAway as a dependency in your go.mod file.
 $ go mod tidy
 # Run gazelle to sync dependencies from go.mod to WORKSPACE file.
@@ -196,8 +196,8 @@ This project is copyright 2023 Uber Technologies, Inc., and licensed under Apach
 [golangci-lint]: https://github.com/golangci/golangci-lint
 [singlechecker]: https://pkg.go.dev/golang.org/x/tools/go/analysis/singlechecker
 [nogo]: https://github.com/bazelbuild/rules_go/blob/master/go/nogo.rst
-[doc-img]: https://pkg.go.dev/badge/go.uber.org/nilaway.svg
-[doc]: https://pkg.go.dev/go.uber.org/nilaway
+[doc-img]: https://pkg.go.dev/badge/github.com/ZhongsJie/nilaway.svg
+[doc]: https://pkg.go.dev/github.com/ZhongsJie/nilaway
 [ci-img]: https://github.com/uber-go/nilaway/actions/workflows/ci.yml/badge.svg
 [ci]: https://github.com/uber-go/nilaway/actions/workflows/ci.yml
 [cov-img]: https://codecov.io/gh/uber-go/nilaway/branch/main/graph/badge.svg

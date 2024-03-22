@@ -18,8 +18,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"go.uber.org/nilaway/assertion/anonymousfunc"
-	"go.uber.org/nilaway/assertion/function/functioncontracts"
+	"github.com/ZhongsJie/nilaway/assertion/anonymousfunc"
+	"github.com/ZhongsJie/nilaway/assertion/function/functioncontracts"
 	"golang.org/x/tools/go/analysis"
 )
 

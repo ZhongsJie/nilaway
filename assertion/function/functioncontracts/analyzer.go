@@ -26,9 +26,9 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/ZhongsJie/nilaway/config"
+	"github.com/ZhongsJie/nilaway/util"
+	"github.com/ZhongsJie/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/buildssa"
 	"golang.org/x/tools/go/ssa"

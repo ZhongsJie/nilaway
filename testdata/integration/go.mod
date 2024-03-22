@@ -1,3 +1,3 @@
-module go.uber.org/nilaway/integration
+module github.com/ZhongsJie/nilaway/integration
 
 go 1.21

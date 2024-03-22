@@ -22,8 +22,8 @@ import (
 	"go/types"
 	"reflect"
 
+	"github.com/ZhongsJie/nilaway/util"
 	"github.com/stretchr/testify/mock"
-	"go.uber.org/nilaway/util"
 	"golang.org/x/tools/go/packages"
 )
 

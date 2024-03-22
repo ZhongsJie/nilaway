@@ -20,12 +20,12 @@ import (
 	"errors"
 	"reflect"
 
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/assertion/affiliation"
-	"go.uber.org/nilaway/assertion/function"
-	"go.uber.org/nilaway/assertion/global"
-	"go.uber.org/nilaway/config"
-	"go.uber.org/nilaway/util/analysishelper"
+	"github.com/ZhongsJie/nilaway/annotation"
+	"github.com/ZhongsJie/nilaway/assertion/affiliation"
+	"github.com/ZhongsJie/nilaway/assertion/function"
+	"github.com/ZhongsJie/nilaway/assertion/global"
+	"github.com/ZhongsJie/nilaway/config"
+	"github.com/ZhongsJie/nilaway/util/analysishelper"
 	"golang.org/x/tools/go/analysis"
 )
 

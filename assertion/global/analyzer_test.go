@@ -17,10 +17,10 @@ package global
 import (
 	"testing"
 
+	"github.com/ZhongsJie/nilaway/annotation"
+	"github.com/ZhongsJie/nilaway/util/analysishelper"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
-	"go.uber.org/nilaway/annotation"
-	"go.uber.org/nilaway/util/analysishelper"
 )
 
 func TestAnalyzer(t *testing.T) {
