@@ -18,5 +18,3 @@ require (
 	golang.org/x/mod v0.15.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace go.uber.org/nilaway v0.0.0-20240321212806-371683f30781 => github.com/ZhongsJie/nilaway v1.0.0
